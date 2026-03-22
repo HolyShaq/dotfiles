@@ -70,10 +70,10 @@ binds {
     Mod+Shift+CTRL+Left                  { move-column-to-monitor-left; }
     Mod+Shift+CTRL+Right                 { move-column-to-monitor-right; }
     Mod+Shift+CTRL+L                     { move-column-to-monitor-right; }
-    Mod+Shift+CTRL+UP                    { move-column-to-monitor-up; }
-    Mod+Shift+CTRL+I                     { move-column-to-monitor-up; }
-    Mod+Shift+CTRL+Down                  { move-column-to-monitor-down; }
-    Mod+Shift+CTRL+J                     { move-column-to-monitor-down; }
+    Mod+Shift+CTRL+UP                    { move-column-to-workspace-up; }
+    Mod+Shift+CTRL+K                     { move-column-to-workspace-up; }
+    Mod+Shift+CTRL+Down                  { move-column-to-workspace-down; }
+    Mod+Shift+CTRL+J                     { move-column-to-workspace-down; }
 
     // Scroll Controls
     Mod+WheelScrollDown                 cooldown-ms=150 { focus-column-right; }

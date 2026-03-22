@@ -1,5 +1,6 @@
 layout {
     gaps 8 // Gap between windows
+    always-center-single-column
 
     focus-ring {
         width 1
@@ -17,5 +18,11 @@ layout {
 
     struts {}
 
-    always-center-single-column
+    tab-indicator {
+        // place-within-column
+        width 2
+        gap 3
+    }
+
+    default-column-width { proportion 0.5; }
 }

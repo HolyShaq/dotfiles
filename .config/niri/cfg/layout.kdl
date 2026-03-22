@@ -16,4 +16,6 @@ layout {
     }
 
     struts {}
+
+    always-center-single-column
 }

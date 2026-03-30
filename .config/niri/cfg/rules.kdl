@@ -37,3 +37,17 @@ window-rule {
     match title="gemini"
     default-column-width { proportion 0.25; }
 }
+
+window-rule {
+    // Match the class we set in the 'wezterm start' command
+    match app-id="floating_editor"
+
+    open-floating true
+    
+    // Position and Size
+    default-column-width { fixed 1000; }
+    default-window-height { fixed 600; }
+    
+    // Optional: Add some transparency or remove borders for the 'pop-up' feel
+    opacity 0.95
+}

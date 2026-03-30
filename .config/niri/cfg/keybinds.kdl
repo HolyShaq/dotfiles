@@ -15,6 +15,7 @@ binds {
     Mod+Shift+Q                        hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
     Mod+A hotkey-overlay-title="Open Assistant Panel" { spawn "pake-gemini"; }
     Mod+N hotkey-overlay-title="Open Scratchpad" { spawn-sh "qs -c noctalia-shell ipc call plugin:notes-scratchpad togglePanel"; }
+    Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "qs -c noctalia-shell ipc call plugin:clipper toggle"; }
 
 
     // Please choose your own file manager.

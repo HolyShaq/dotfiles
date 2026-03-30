@@ -133,6 +133,9 @@
                     "unfocusedIconsOpacity": 1
                 },
                 {
+                    "id": "plugin:catwalk"
+                },
+                {
                     "compactMode": false,
                     "hideMode": "hidden",
                     "hideWhenIdle": false,
@@ -184,6 +187,9 @@
                     "id": "NotificationHistory",
                     "showUnreadBadge": true,
                     "unreadBadgeColor": "primary"
+                },
+                {
+                    "id": "plugin:clipper"
                 }
             ]
         }

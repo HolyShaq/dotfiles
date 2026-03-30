@@ -1,0 +1,17 @@
+{
+  "stateIsRunning": false,
+  "stateActiveTool": "measure",
+  "transAvailable": false,
+  "detectedRecorder": "",
+  "stateMirrorVisible": false,
+  "paletteColors": [
+    "#11112D",
+    "#24233D",
+    "#282858",
+    "#55536A",
+    "#79778A",
+    "#A19EAE",
+    "#D7D2DE",
+    "#F1EBF5"
+  ]
+}

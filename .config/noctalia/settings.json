@@ -184,9 +184,6 @@
                     "id": "NotificationHistory",
                     "showUnreadBadge": true,
                     "unreadBadgeColor": "primary"
-                },
-                {
-                    "id": "plugin:notes-scratchpad"
                 }
             ]
         }

@@ -7,10 +7,6 @@
         }
     ],
     "states": {
-        "assistant-panel": {
-            "enabled": true,
-            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
-        },
         "currency-exchange": {
             "enabled": true,
             "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"

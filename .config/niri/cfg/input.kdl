@@ -18,6 +18,6 @@ input {
         natural-scroll // Enable natural (macOS-style) scrolling
     }
 
-    focus-follows-mouse // Automatically focus windows under the mouse pointer
+    focus-follows-mouse max-scroll-amount="50%"
     workspace-auto-back-and-forth // Enable workspace back & forth switching
 }

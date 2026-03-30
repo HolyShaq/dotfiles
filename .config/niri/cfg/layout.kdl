@@ -2,6 +2,8 @@ layout {
     gaps 8 // Gap between windows
     always-center-single-column
 
+    empty-workspace-above-first true
+
     focus-ring {
         width 1
     }

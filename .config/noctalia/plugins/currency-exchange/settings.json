@@ -1,0 +1,6 @@
+{
+  "sourceCurrency": "USD",
+  "targetCurrency": "PHP",
+  "widgetDisplayMode": "icon",
+  "refreshInterval": 60
+}

@@ -131,7 +131,8 @@ binds {
 
     // ─── Screenshots ───
     Mod+S                        { screenshot; }
-    Mod+Shift+S                        { screenshot-window; }
+    Mod+Shift+S                  { screenshot-window; }
+    Mod+CTRL+S                   { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-recorder toggle"; }
     Print                        { screenshot-screen; }
 
     // ─── Emergency Escape Key ───

@@ -133,6 +133,10 @@
                     "unfocusedIconsOpacity": 1
                 },
                 {
+                    "defaultSettings": {
+                        "hideBackground": false,
+                        "minimumThreshold": 10
+                    },
                     "id": "plugin:catwalk"
                 },
                 {
@@ -189,7 +193,7 @@
                     "unreadBadgeColor": "primary"
                 },
                 {
-                    "id": "plugin:clipper"
+                    "id": "plugin:screen-recorder"
                 }
             ]
         }
@@ -334,7 +338,7 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/holyshaq/.face",
+        "avatarImage": "/home/holyshaq/Pictures/sherma.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "custom",

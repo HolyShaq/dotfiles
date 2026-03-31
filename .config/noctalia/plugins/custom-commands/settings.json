@@ -1,0 +1,19 @@
+{
+  "commands": [
+    {
+      "name": "File Manager",
+      "command": "xdg-open ~",
+      "icon": "folder"
+    },
+    {
+      "name": "System Monitor",
+      "command": "gnome-system-monitor || plasma-systemmonitor || xfce4-taskmanager",
+      "icon": "activity"
+    },
+    {
+      "name": "Screen Recorder",
+      "command": "qs -c noctalia-shell ipc call plugin:screen-recorder toggle",
+      "icon": "terminal-2"
+    }
+  ]
+}

@@ -130,9 +130,9 @@ binds {
     Mod+Shift+F hotkey-overlay-title="Full screen window" { fullscreen-window; }
 
     // ─── Screenshots ───
-    CTRL+Shift+1                        { screenshot; }
-    CTRL+Shift+2                        { screenshot-screen; }
-    CTRL+Shift+3                        { screenshot-window; }
+    Mod+S                        { screenshot; }
+    Mod+Shift+S                        { screenshot-window; }
+    Print                        { screenshot-screen; }
 
     // ─── Emergency Escape Key ───
     // Use this when a fullscreen app blocks your keybinds.

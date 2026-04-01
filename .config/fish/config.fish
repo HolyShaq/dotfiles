@@ -29,6 +29,9 @@ alias lg='lazygit'
 alias cls='clear'
 alias hl='hledger'
 
+# Abbreviations
+abbr -a ses 'sudo -E -s'
+
 # Initialize zoxide
 zoxide init fish | source
 

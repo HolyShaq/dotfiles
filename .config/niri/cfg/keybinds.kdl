@@ -16,6 +16,7 @@ binds {
     Mod+A hotkey-overlay-title="Open Assistant Panel" { spawn "pake-gemini"; }
     Mod+N hotkey-overlay-title="Open Scratchpad" { spawn-sh "qs -c noctalia-shell ipc call plugin:notes-scratchpad togglePanel"; }
     Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "qs -c noctalia-shell ipc call plugin:clipper toggle"; }
+    Mod+Shift+W hotkey-overlay-title="Open Wallpaper Selector" { spawn-sh "qs -c noctalia-shell ipc call plugin:wallcards toggle"; }
 
 
     // Please choose your own file manager.

@@ -19,7 +19,7 @@
         "overviewLayer": false,
         "pinnedApps": [
         ],
-        "position": "center",
+        "position": "bottom_center",
         "screenshotAnnotationTool": "",
         "showCategories": true,
         "showIconBackground": false,
@@ -42,8 +42,8 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
-        "barType": "floating",
+        "backgroundOpacity": 1,
+        "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 4,
@@ -53,8 +53,8 @@
         "fontScale": 1,
         "frameRadius": 12,
         "frameThickness": 8,
-        "hideOnOverview": false,
-        "marginHorizontal": 4,
+        "hideOnOverview": true,
+        "marginHorizontal": 2,
         "marginVertical": 0,
         "middleClickAction": "settings",
         "middleClickCommand": "",
@@ -64,7 +64,7 @@
         "mouseWheelAction": "none",
         "mouseWheelWrap": true,
         "outerCorners": true,
-        "position": "top",
+        "position": "left",
         "reverseScroll": false,
         "rightClickAction": "controlCenter",
         "rightClickCommand": "",
@@ -74,7 +74,7 @@
         "showCapsule": true,
         "showOnWorkspaceSwitch": true,
         "showOutline": false,
-        "useSeparateOpacity": false,
+        "useSeparateOpacity": true,
         "widgetSpacing": 6,
         "widgets": {
             "center": [
@@ -82,7 +82,7 @@
                     "clockColor": "none",
                     "customFont": "",
                     "formatHorizontal": "hh:mm AP ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
+                    "formatVertical": "hh mm - dd MM",
                     "id": "Clock",
                     "tooltipFormat": "hh:mm:ss AP dddd, MMMM dd, yyyy",
                     "useCustomFont": false
@@ -220,11 +220,11 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "vibrant",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "monitorForColors": "",
-        "predefinedScheme": "Noctalia (default)",
+        "monitorForColors": "eDP-1",
+        "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "useWallpaperColors": true
     },
@@ -293,6 +293,32 @@
         "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [
+            {
+                "name": "HDMI-A-1",
+                "widgets": [
+                    {
+                        "clockColor": "none",
+                        "clockStyle": "analog",
+                        "customFont": "",
+                        "format": "HH:mm\\nd MMMM yyyy",
+                        "id": "Clock",
+                        "roundedCorners": true,
+                        "scale": 1.0272899023364181,
+                        "showBackground": true,
+                        "useCustomFont": false,
+                        "x": 60,
+                        "y": 20
+                    },
+                    {
+                        "id": "Weather",
+                        "roundedCorners": true,
+                        "scale": 0.5868047230862861,
+                        "showBackground": true,
+                        "x": 59,
+                        "y": 190
+                    }
+                ]
+            }
         ],
         "overviewEnabled": true
     },
@@ -338,12 +364,12 @@
         "avatarImage": "/home/holyshaq/Pictures/sherma.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
-        "clockStyle": "custom",
+        "clockStyle": "analog",
         "compactLockScreen": false,
         "dimmerOpacity": 0.3,
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
-        "enableLockScreenMediaControls": false,
+        "enableLockScreenMediaControls": true,
         "enableShadows": true,
         "forceBlackScreenCorners": false,
         "iRadiusRatio": 1,
@@ -373,13 +399,13 @@
         },
         "language": "",
         "lockOnSuspend": true,
-        "lockScreenAnimations": false,
+        "lockScreenAnimations": true,
         "lockScreenBlur": 0,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
         ],
         "lockScreenTint": 0,
-        "passwordChars": false,
+        "passwordChars": true,
         "radiusRatio": 1,
         "reverseScroll": false,
         "scaleRatio": 1,
@@ -458,7 +484,7 @@
         "disableWallpaper": true
     },
     "notifications": {
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 0.8,
         "clearDismissed": true,
         "criticalUrgencyDuration": 15,
         "density": "default",
@@ -467,7 +493,7 @@
         "enableMarkdown": false,
         "enableMediaToast": false,
         "enabled": true,
-        "location": "top_right",
+        "location": "bottom_left",
         "lowUrgencyDuration": 3,
         "monitors": [
         ],

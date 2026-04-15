@@ -58,3 +58,12 @@ window-rule {
     // Optional: Add some transparency or remove borders for the 'pop-up' feel
     opacity 0.95
 }
+
+window-rule {
+    match app-id="qalculate-qt"
+
+    open-floating true
+    default-window-height { fixed 600; }
+    default-floating-position x=20 y=20 relative-to="bottom-right"
+    opacity 0.95
+}

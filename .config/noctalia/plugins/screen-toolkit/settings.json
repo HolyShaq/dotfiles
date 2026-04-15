@@ -1,9 +1,5 @@
 {
-  "stateIsRunning": false,
-  "stateActiveTool": "measure",
-  "transAvailable": false,
-  "detectedRecorder": "",
-  "stateMirrorVisible": false,
+  "colorHistory": [],
   "paletteColors": [
     "#11112D",
     "#24233D",
@@ -13,5 +9,14 @@
     "#A19EAE",
     "#D7D2DE",
     "#F1EBF5"
-  ]
+  ],
+  "installedLangs": [
+    "afr"
+  ],
+  "transAvailable": false,
+  "selectedOcrLang": "eng",
+  "detectedRecorder": "",
+  "stateIsRunning": false,
+  "stateActiveTool": "",
+  "stateMirrorVisible": false
 }

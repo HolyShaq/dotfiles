@@ -1,12 +1,12 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
-  // "logo": {
-  //     "source": "~/.config/fastfetch/logo.txt",
-  //     "color": {
-  //         "1": "blue",
-  //         "2": "white"
-  //     }
-  // },
+  "logo": {
+      "source": "~/.config/fastfetch/logo.txt",
+      "color": {
+          "1": "blue",
+          "2": "white"
+      }
+  },
   // "logo": {
   //     "source": "~/.config/fastfetch/logo.png",
   //     "type": "iterm", // Use "sixel" or "iterm" if not using Kitty
@@ -71,6 +71,12 @@
             "type": "cpu",
             "showPeCoreCount": true
         },
+		{
+			"key": "│ {#33}󰢮 gpu     {#keys}│",
+			"type": "gpu",
+			// "temp": true,
+			// "format": "{2} ({4})" 
+		},
         {
             "key": "│ {#34}󰉉 disk    {#keys}│",
             "type": "disk",

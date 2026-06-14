@@ -67,3 +67,31 @@ window-rule {
     default-floating-position x=20 y=20 relative-to="bottom-right"
     opacity 0.95
 }
+
+window-rule {
+    match title="DaVinci Resolve"
+    match app-id="resolve"
+    open-floating true
+}
+
+window-rule {
+    // Matches the Project Manager window
+    match title="^Project Manager$"
+    open-floating true
+    default-column-width { proportion 0.6; }
+    default-window-height { proportion 0.6; }
+}
+
+window-rule {
+    // Match any window where the title contains "Picture-in-Picture"
+    match title="^Picture-in-Picture$"
+    // If you use Firefox, it often appends the site name, so a regex match is safer:
+    // match title=".*Picture-in-Picture.*"
+
+    // Force the window to float automatically
+    open-floating true
+
+    // Position and Size
+    default-column-width { fixed 480; }
+    default-window-height { fixed 270; }
+}

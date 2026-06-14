@@ -129,6 +129,7 @@ binds {
     // ─── Modes ───
     Mod+T                               { toggle-column-tabbed-display; }
     Mod+Z                               { toggle-window-floating; }
+    Mod+Shift+Z                               { switch-focus-between-floating-and-tiling; }
     Mod+F       hotkey-overlay-title="Maximize column" { maximize-column; }
     Mod+Shift+F hotkey-overlay-title="Full screen window" { fullscreen-window; }
 

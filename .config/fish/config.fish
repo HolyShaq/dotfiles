@@ -28,6 +28,8 @@ alias cd='z'
 alias lg='lazygit'
 alias cls='clear'
 alias hl='hledger'
+alias nvid='neovide'
+alias py='python3' 
 
 # Abbreviations
 abbr -a ses 'sudo -E -s'
